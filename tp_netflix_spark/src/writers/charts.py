@@ -89,6 +89,74 @@ def save_line_chart(
     plt.close()
 
 
+def save_annotated_vertical_bar_chart(
+    labels: list[str],
+    values: list[float],
+    annotations: list[str],
+    title: str,
+    xlabel: str,
+    ylabel: str,
+    output_path: Path,
+    color: str,
+) -> None:
+    """Save a vertical bar chart with a text annotation above each bar."""
+    max_value: float = max(values) if values else 0.0
+    plt.figure(figsize=(max(8, len(labels) * 1.2), 5))
+    x_positions: list[int] = list(range(len(labels)))
+    plt.bar(x_positions, values, color=color)
+    plt.xticks(x_positions, labels)
+    for i, (value, annotation) in enumerate(zip(values, annotations)):
+        plt.text(
+            i,
+            value + max_value * 0.01,
+            annotation,
+            ha="center",
+            va="bottom",
+            fontsize=7,
+            color="#333",
+        )
+    plt.title(title)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=180)
+    plt.close()
+
+
+_SCATTER_COLORS: list[str] = [
+    "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd",
+    "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf",
+    "#aec7e8", "#ffbb78", "#98df8a", "#ff9896", "#c5b0d5",
+]
+
+
+def save_scatter_chart(
+    x_values: list[float],
+    y_values: list[float],
+    cluster_ids: list[int],
+    title: str,
+    xlabel: str,
+    ylabel: str,
+    output_path: Path,
+) -> None:
+    """Save a scatter chart with one colour per cluster to a file."""
+    unique_clusters: list[int] = sorted(set(cluster_ids))
+    plt.figure(figsize=(10, 7))
+    for i, cluster_id in enumerate(unique_clusters):
+        indices: list[int] = [j for j, c in enumerate(cluster_ids) if c == cluster_id]
+        xs: list[float] = [x_values[j] for j in indices]
+        ys: list[float] = [y_values[j] for j in indices]
+        color: str = _SCATTER_COLORS[i % len(_SCATTER_COLORS)]
+        plt.scatter(xs, ys, c=color, label=f"Cluster {cluster_id}", alpha=0.45, s=18)
+    plt.title(title)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    plt.legend(loc="best", fontsize=8)
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=180)
+    plt.close()
+
+
 def save_charts(
     local_output: Path,
     films_by_genre: DataFrame,

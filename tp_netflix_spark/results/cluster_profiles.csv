@@ -1,0 +1,6 @@
+cluster,movie_count,avg_vote,std_vote,avg_popularity,avg_release_year,top_genres
+0,2437,6.4,1.04,40.48,2006,Comedy / Family / Animation
+1,3108,6.72,1.2,28.63,2006,Drama / Romance / Comedy
+2,1541,6.41,1.2,55.34,2006,Action / Adventure / Science Fiction
+3,1473,5.96,1.02,42.9,2008,Horror / Thriller / Mystery
+4,1268,6.42,0.93,47.46,2006,Thriller / Action / Crime

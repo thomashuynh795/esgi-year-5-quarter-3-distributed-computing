@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Final, TypeAlias
 
 from pyspark.sql import DataFrame
@@ -57,3 +57,52 @@ IQR_MULTIPLIER: Final[float] = 1.5
 MIN_RELEASE_YEAR_FOR_YEAR_CHART: Final[int] = 1980
 TOP_CHART_LIMIT: Final[int] = 10
 OUTLIER_EXAMPLE_LIMIT: Final[int] = 20
+
+
+# ---------------------------------------------------------------------------
+# ML / Clustering configuration
+# ---------------------------------------------------------------------------
+
+
+@dataclass(frozen=True)
+class ClusteringConfig:
+    """Immutable configuration for the Netflix KMeans clustering and recommendation."""
+
+    input_path: str
+    local_output_path: str
+    k_min: int
+    k_max: int
+    fixed_k: int | None
+    example_movies: list[str] = field(default_factory=list)
+
+
+# Type aliases for ML structures
+SilhouetteScores: TypeAlias = dict[int, float]
+PCAProjection: TypeAlias = tuple[list[float], list[float], list[int]]
+
+# Spark app name for clustering
+KMEANS_APP_NAME: Final[str] = "NetflixClustering"
+
+# KMeans training parameters
+KMEANS_SEED: Final[int] = 42
+KMEANS_MAX_ITER_SEARCH: Final[int] = 20
+KMEANS_MAX_ITER_FINAL: Final[int] = 50
+
+# Default k search range
+K_MIN_DEFAULT: Final[int] = 5
+K_MAX_DEFAULT: Final[int] = 14
+
+# CountVectorizer minimum document frequency for genre features
+COUNT_VECTORIZER_MIN_DF: Final[float] = 2.0
+
+# Number of top genres to display in cluster profiles
+TOP_GENRES_PER_CLUSTER: Final[int] = 3
+
+# Default movies used for recommendation examples
+DEFAULT_EXAMPLE_MOVIES: Final[tuple[str, ...]] = (
+    "Inception",
+    "Shrek",
+    "The Notebook",
+    "Paranormal Activity",
+    "Avengers: Endgame",
+)
