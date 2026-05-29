@@ -14,4 +14,3 @@ def map_phrase(phrase: str) -> dict[str, int]:
                 word_counts[word] = 1
 
     return word_counts
-
