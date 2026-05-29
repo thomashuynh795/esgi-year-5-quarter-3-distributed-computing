@@ -1,6 +1,13 @@
 cluster,movie_count,avg_vote,std_vote,avg_popularity,avg_release_year,top_genres
-0,2437,6.4,1.04,40.48,2006,Comedy / Family / Animation
-1,3108,6.72,1.2,28.63,2006,Drama / Romance / Comedy
-2,1541,6.41,1.2,55.34,2006,Action / Adventure / Science Fiction
-3,1473,5.96,1.02,42.9,2008,Horror / Thriller / Mystery
-4,1268,6.42,0.93,47.46,2006,Thriller / Action / Crime
+0,1047,6.68,0.96,52.92,2007,Family / Animation / Comedy
+1,463,6.61,1.02,29.66,2006,Action / Drama / Thriller
+2,556,6.22,1.15,47.5,2008,Action / Science Fiction / Animation
+3,1505,6.4,1.22,29.62,2006,Comedy / Drama / Documentary
+4,577,6.33,1.02,38.69,2009,Thriller / Drama / Mystery
+5,667,5.97,1.08,39.54,2005,Horror / Comedy / Fantasy
+6,1657,6.85,1.12,29.21,2005,Drama / Romance / History
+7,675,5.94,0.99,37.62,2009,Thriller / Horror / Mystery
+8,896,6.41,0.98,49.45,2006,Thriller / Crime / Action
+9,747,6.4,1.04,29.73,2005,Romance / Comedy / Drama
+10,671,6.45,1.14,60.35,2005,Adventure / Action / Fantasy
+11,366,6.25,1.42,72.84,2005,Adventure / Science Fiction / Action
