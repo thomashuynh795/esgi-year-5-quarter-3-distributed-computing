@@ -1,0 +1,61 @@
+metric,title,release_year,original_language,genre,metric_value,lower_bound,upper_bound,outlier_side,distance_from_bound,why_outlier
+popularity,Spider-Man: No Way Home,2021,en,"Action, Adventure, Science Fiction",5083.954,-11.33,61.9,high,5022.0585,A popularity value far from the rest can dominate rankings.
+popularity,The Batman,2022,en,"Crime, Mystery, Thriller",3827.658,-11.33,61.9,high,3765.7625,A popularity value far from the rest can dominate rankings.
+popularity,No Exit,2022,en,Thriller,2618.087,-11.33,61.9,high,2556.1915,A popularity value far from the rest can dominate rankings.
+popularity,Encanto,2021,en,"Animation, Comedy, Family, Fantasy",2402.201,-11.33,61.9,high,2340.3055,A popularity value far from the rest can dominate rankings.
+popularity,The King's Man,2021,en,"Action, Adventure, Thriller, War",1895.511,-11.33,61.9,high,1833.6154999999999,A popularity value far from the rest can dominate rankings.
+popularity,The Commando,2022,en,"Action, Crime, Thriller",1750.484,-11.33,61.9,high,1688.5884999999998,A popularity value far from the rest can dominate rankings.
+popularity,Scream,2022,en,"Horror, Mystery, Thriller",1675.161,-11.33,61.9,high,1613.2655,A popularity value far from the rest can dominate rankings.
+popularity,Kimi,2022,en,Thriller,1601.782,-11.33,61.9,high,1539.8864999999998,A popularity value far from the rest can dominate rankings.
+popularity,Fistful of Vengeance,2022,en,"Action, Crime, Fantasy",1594.013,-11.33,61.9,high,1532.1174999999998,A popularity value far from the rest can dominate rankings.
+popularity,Eternals,2021,en,Science Fiction,1537.406,-11.33,61.9,high,1475.5104999999999,A popularity value far from the rest can dominate rankings.
+popularity,Pursuit,2022,en,"Action, Crime, Thriller",1500.523,-11.33,61.9,high,1438.6274999999998,A popularity value far from the rest can dominate rankings.
+popularity,My Hero Academia: World Heroes' Mission,2021,ja,"Animation, Action, Fantasy, Adventure",1485.064,-11.33,61.9,high,1423.1685,A popularity value far from the rest can dominate rankings.
+popularity,Restless,2022,fr,"Action, Thriller, Crime",1468.377,-11.33,61.9,high,1406.4814999999999,A popularity value far from the rest can dominate rankings.
+popularity,Nightmare Alley,2021,en,"Crime, Drama, Thriller",1455.144,-11.33,61.9,high,1393.2485,A popularity value far from the rest can dominate rankings.
+popularity,The Ice Age Adventures of Buck Wild,2022,en,"Animation, Comedy, Adventure, Family",1431.307,-11.33,61.9,high,1369.4115,A popularity value far from the rest can dominate rankings.
+popularity,Hotel Transylvania: Transformania,2022,en,"Animation, Family, Fantasy, Comedy, Adventure",1373.778,-11.33,61.9,high,1311.8825,A popularity value far from the rest can dominate rankings.
+popularity,Texas Chainsaw Massacre,2022,en,Horror,1312.79,-11.33,61.9,high,1250.8944999999999,A popularity value far from the rest can dominate rankings.
+popularity,The Requin,2022,en,Thriller,1252.317,-11.33,61.9,high,1190.4215,A popularity value far from the rest can dominate rankings.
+popularity,Looop Lapeta,2022,hi,"Action, Comedy, Crime",1240.946,-11.33,61.9,high,1179.0504999999998,A popularity value far from the rest can dominate rankings.
+popularity,Red Notice,2021,en,"Action, Comedy, Crime, Thriller",1178.544,-11.33,61.9,high,1116.6485,A popularity value far from the rest can dominate rankings.
+vote_count,Inception,2010,en,"Action, Science Fiction, Adventure",31077.0,-1624.0,3096.0,high,27981.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Interstellar,2014,en,"Adventure, Drama, Science Fiction",27975.0,-1624.0,3096.0,high,24879.0,A very high vote count can indicate a much more exposed movie.
+vote_count,The Dark Knight,2008,en,"Drama, Action, Crime, Thriller",26994.0,-1624.0,3096.0,high,23898.0,A very high vote count can indicate a much more exposed movie.
+vote_count,The Avengers,2012,en,"Science Fiction, Action, Adventure",26490.0,-1624.0,3096.0,high,23394.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Deadpool,2016,en,"Action, Adventure, Comedy",26390.0,-1624.0,3096.0,high,23294.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Avatar,2009,en,"Action, Adventure, Fantasy, Science Fiction",25011.0,-1624.0,3096.0,high,21915.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Avengers: Infinity War,2018,en,"Adventure, Action, Science Fiction",24079.0,-1624.0,3096.0,high,20983.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Guardians of the Galaxy,2014,en,"Action, Science Fiction, Adventure",24024.0,-1624.0,3096.0,high,20928.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Fight Club,1999,en,Drama,23620.0,-1624.0,3096.0,high,20524.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Pulp Fiction,1994,en,"Thriller, Crime",22733.0,-1624.0,3096.0,high,19637.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Iron Man,2008,en,"Action, Science Fiction, Adventure",22335.0,-1624.0,3096.0,high,19239.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Forrest Gump,1994,en,"Comedy, Drama, Romance",22308.0,-1624.0,3096.0,high,19212.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Harry Potter and the Philosopher's Stone,2001,en,"Adventure, Fantasy",22210.0,-1624.0,3096.0,high,19114.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Django Unchained,2012,en,"Drama, Western",22147.0,-1624.0,3096.0,high,19051.0,A very high vote count can indicate a much more exposed movie.
+vote_count,The Matrix,1999,en,"Action, Science Fiction",21182.0,-1624.0,3096.0,high,18086.0,A very high vote count can indicate a much more exposed movie.
+vote_count,The Shawshank Redemption,1994,en,"Drama, Crime",20911.0,-1624.0,3096.0,high,17815.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Titanic,1997,en,"Drama, Romance",20674.0,-1624.0,3096.0,high,17578.0,A very high vote count can indicate a much more exposed movie.
+vote_count,The Lord of the Rings: The Fellowship of the Ring,2001,en,"Adventure, Fantasy, Action",20602.0,-1624.0,3096.0,high,17506.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Avengers: Endgame,2019,en,"Adventure, Science Fiction, Action",20521.0,-1624.0,3096.0,high,17425.0,A very high vote count can indicate a much more exposed movie.
+vote_count,Joker,2019,en,"Crime, Thriller, Drama",20016.0,-1624.0,3096.0,high,16920.0,A very high vote count can indicate a much more exposed movie.
+vote_average,Sonic the Hedgehog 2,2022,en,"Action, Science Fiction, Comedy, Family",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Fast & Furious 10,2023,en,"Action, Crime",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Dragon Ball Super: Super Hero,2022,ja,"Animation, Science Fiction, Action",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,After Ever Happy,2022,en,Romance,0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,The Bad Guys,2022,en,"Animation, Comedy, Action, Family, Crime",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Doctor Strange in the Multiverse of Madness,2022,en,"Fantasy, Action, Adventure",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Jurassic World Dominion,2022,en,"Adventure, Action, Science Fiction, Thriller",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Morbius,2022,en,"Action, Science Fiction, Fantasy",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,The Flash,2023,en,"Action, Adventure, Science Fiction, Fantasy, Drama",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Fantastic Beasts: The Secrets of Dumbledore,2022,en,"Fantasy, Adventure",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Top Gun: Maverick,2022,en,"Action, Drama",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Deep Water,2022,en,"Drama, Romance, Thriller",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,The Lost City,2022,en,"Comedy, Action, Romance, Adventure",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Spider-Man: Across the Spider-Verse (Part One),2022,en,"Animation, Action, Science Fiction, Comedy, Adventure",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Avatar 2,2022,en,"Action, Adventure, Science Fiction, Fantasy",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Aquaman and The Lost Kingdom,2023,en,"Adventure, Action, Fantasy",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Ambulance,2022,en,"Action, Crime, Thriller",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Minions: The Rise of Gru,2022,en,"Family, Animation, Action, Adventure, Comedy",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Ladybug & Cat Noir: Awakening,2022,en,"Action, Animation, Adventure, Fantasy, Music",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.
+vote_average,Transformers: Rise of the Beasts,2023,en,"Action, Science Fiction, Adventure",0.0,4.1,8.9,low,4.100000000000001,A very low or very high rating can influence genre averages.

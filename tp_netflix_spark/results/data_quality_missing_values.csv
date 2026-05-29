@@ -1,0 +1,8 @@
+column_name,total_rows,missing_count,missing_percent,why_problem
+release_date,9827,0,0.0,Required to analyze movies by year and decade.
+title,9827,0,0.0,Required to identify each movie clearly in the results.
+popularity,9827,0,0.0,Required to rank the most popular movies.
+vote_count,9827,0,0.0,Required to assess how reliable an average rating is.
+vote_average,9827,0,0.0,Required to compare movie and genre ratings.
+original_language,9827,0,0.0,Required to analyze the distribution by original language.
+genre,9827,0,0.0,Required to analyze the distribution by genre.
